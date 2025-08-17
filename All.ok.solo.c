@@ -166,10 +166,11 @@ orders[i].quantity);
 int main()
 {
 int choice;
-
 while(1)
 {
-printf("\n     WAREHOUSE MANAGEMENT SYSTEM    \n");
+
+  
+printf("\nWAREHOUSE MANAGER\n");
 printf("1. Product Management\n");
 printf("2. Shipment Management\n");
 printf("3. Order Management\n");
@@ -178,7 +179,6 @@ printf("5. View All Data\n");
 printf("0. Exit\n");
 printf("Choose: ");
 scanf("%d",&choice);
-
 switch(choice)
 {
 case 1:
@@ -187,7 +187,7 @@ case 2:
 addshipment();break;
 case 3:
 placeorder();break;
-case 4
+case 4:
 undo();break;
 case 5:
 printf("\nPRODUCTS:\n");
